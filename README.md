@@ -165,3 +165,114 @@ Example: const arr1 = [2,7,9,2]
 
 
 Time Complexity: Linear, O(n)
+
+## String Methods
+
+### charAt()
+Description: Finds the specific character at the given index of the length of the called string and returns a string of that single character. If the index given exceeds the length of the string, and empty string is returned. If no index is provided, the default is the first index
+
+Parameters: Takes in the index to find the character at
+
+Example: const sentence = "Wow! Zrybea, thinks coding is awesome!"
+       console.log(sentence.charAt(3)) // "!"
+       console.log(sentence.charAt(5)) // "Z"
+
+
+
+Time Complexity: Constant, O(1)
+
+### charCodeAt()
+Description: Returns an integer that represents the UTF-16 character code for the element in the string at the given index.
+
+Parameters: Takes in the index to find the character at. If the index is out of range, NaN is returned
+
+Example: const sentence = "Wow! Zrybea, thinks coding is awesome!"
+       console.log(sentence.charCodeAt(3)) // 33
+       console.log(sentence.charCodeAt(5)) // 90
+
+
+
+Time Complexity: Constant, O(1)
+
+### concat()
+Description: Concatenates a string argument with a called string and returns a new string
+
+Parameters: Takes in one or more strings to concatenate
+
+Example: const sentence = "Wow! Zrybea, thinks coding is awesome!"
+        const sentence2 = "Even if she sucks at it."
+       console.log(sentence.concat(sentence2)) // "Wow! Zrybea, thinks coding is awesome!Even if she sucks at it."
+       console.log(sentence2.concat(" ", sentence)) // "Even if she sucks at it. Wow! Zrybea, thinks coding is awesome!"
+
+
+
+Time Complexity: Linear, O(n)
+
+### includes()
+Description: Does a case sensitive search to determine if one string can be found in another and returns a boolean
+
+Parameters: Takes in the string to be searched for and optionally the position start searching from
+
+Example: const sentence = "Wow! Zrybea, thinks coding is awesome!"
+       console.log(sentence.includes("Zrybea")) // true
+       console.log(sentence.includes("!", 4)) // false
+
+
+Time Complexity: Linear, O(n)
+
+### indexOf()
+Description: returns the index within the called string of the first occurrence of the specified string.
+
+Parameters: Takes in the element to be searched for and optionally an index to start searching from
+
+Example: const sentence = "Wow! Zrybea, thinks coding is awesome!"
+       console.log(sentence.indexOf("Zrybea")) // 5
+       console.log(sentence.indexOf("i", 16)) // 23
+
+
+Time Complexity: Linear, O(n)
+
+### match()
+Description: returns the index within the called string of the first occurrence of the specified string.
+
+Parameters: Takes in the element to be searched for and optionally an index to start searching from
+
+Example: const sentence = "Wow! Zrybea, thinks coding is awesome!"
+       console.log(sentence.indexOf("Zrybea")) // 5
+       console.log(sentence.indexOf("i", 16)) // 23
+
+
+Time Complexity: Linear, O(n)
+
+### repeat()
+Description: returns the index within the called string of the first occurrence of the specified string.
+
+Parameters: Takes in the element to be searched for and optionally an index to start searching from
+
+Example: const sentence = "Wow! Zrybea, thinks coding is awesome!"
+       console.log(sentence.indexOf("Zrybea")) // 5
+       console.log(sentence.indexOf("i", 16)) // 23
+
+
+Time Complexity: Linear, O(n)
+
+### replace()
+### search()
+### slice()
+### split()
+### substr()
+### toLowerCase()
+### toUpperCase()
+### trim()
+
+
+## Map Methods
+### delete()
+### clear()
+### get()
+### set()
+### has()
+### keys()
+### values()
+### entries()
+### forEach()
