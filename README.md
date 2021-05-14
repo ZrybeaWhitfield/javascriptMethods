@@ -257,6 +257,8 @@ Example: const sentence = "Wow! Zrybea, thinks coding is awesome!"
 Time Complexity: Linear, O(n)
 
 ### replace()
+
+
 ### search()
 ### slice()
 ### split()
@@ -265,6 +267,7 @@ Time Complexity: Linear, O(n)
 ### toUpperCase()
 ### trim()
 
+# Additional Data Structures
 
 ## Map Methods
 ### delete()
@@ -276,3 +279,5 @@ Time Complexity: Linear, O(n)
 ### values()
 ### entries()
 ### forEach()
+
+## Set Methods
